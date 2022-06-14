@@ -1,0 +1,66 @@
+.mobile-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 0 20px;
+}
+.mobile-nav-container .mobile-brand {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.mobile-nav-container .mobile-brand .mobile-brand-name {
+  color: #88847F;
+}
+.mobile-nav-container .mobile-nav {
+  position: sticky;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  width: 175px;
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-nav-container .mobile-nav .background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #F6F5F4;
+}
+.mobile-nav-container .mobile-nav .mobile-nav-list {
+  padding: 25px;
+  position: fixed;
+  top: 75px;
+  width: 150px;
+}
+.mobile-nav-container .mobile-nav li:not(:first-child) {
+  padding-top: 20px;
+}
+.mobile-nav-container .mobile-nav li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.mobile-nav-container .mobile-nav li * {
+  text-decoration: none;
+  color: black;
+}
+.mobile-nav-container .mobile-nav button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+/*# sourceMappingURL=MobileNavbar.css.map */

@@ -1,0 +1,28 @@
+.desktop-nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.desktop-nav-container .desktop-brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.desktop-nav-container .desktop-brand .desktop-brand-name {
+  color: #88847F;
+}
+.desktop-nav-container .desktop-nav-list {
+  display: flex;
+  list-style: none;
+}
+.desktop-nav-container .desktop-nav-list li:not(:last-child) {
+  margin-right: 40px;
+}
+.desktop-nav-container .desktop-nav-list * {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=DesktopNavbar.css.map */
